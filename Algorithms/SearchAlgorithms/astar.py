@@ -143,6 +143,7 @@ def algorithm(draw, grid, start, end):
 
 		if current != start:
 			current.make_closed()
+	print(came_from)
 
 	return False
 
